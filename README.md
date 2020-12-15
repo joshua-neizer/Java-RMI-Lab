@@ -102,7 +102,6 @@ frame array isn't full, the request is appended to the end of the array, the que
  After a victim frame is chosen, the FIFO queue is updated by shifting all frames 
  after the victim, to the left, and appending the requested frame to the end of 
  the queue. After, the victim frame is then swapped out with the request frame.
-
 <br>
 
 ### MFU Server
